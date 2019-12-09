@@ -1,0 +1,58 @@
+.div1{
+	text-decoration:none;
+	width: 80%;
+	height: 450px;
+	margin:13px auto;
+}
+
+.cmenu{
+	text-decoration:none;
+	position: absolute;
+	width: 15%;
+	line-height: 50px;
+	float: left;
+	opacity: 0.9;
+	height: 450px;
+	background: #1b1c17;
+	z-index: 2;
+}
+.menu{
+	position: relative;
+	margin: auto;
+	height: 50px;
+	text-align:left;
+	line-height: 50px;
+}
+.menu:hover{
+	background: #4169E1;
+	text-align: center;
+}
+.menu ul{
+	position: absolute;
+	list-style: none;
+	left: 20%;
+	width: 80%;
+	top:0px;
+	display: none;
+}
+.menu:hover ul{
+	width: 100%;
+	display: block;
+    transition-duration: 0.5s;
+    left: 100%;
+}
+.menu ul li{
+	height: 50px;
+	width: 100%;
+	font-family: "楷体";
+	text-align: center;
+	list-style-type: none;
+	float:left ;
+	background: #1b1c17;
+	opacity: 0.7;
+}
+.menu ul li a{
+	color: #FFFFFF;
+	font-family: "楷体";
+	display: block;
+}
