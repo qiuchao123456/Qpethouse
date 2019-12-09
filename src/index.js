@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import HomePage from './HomePage/homepage';
 import * as serviceWorker from './serviceWorker';
-// import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
+import Login from './Login/login';
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 
 
 
@@ -11,12 +12,14 @@ class IndexPage extends React.Component{
     render(){
         return(
            <div>
-               <HomePage/>
-               {/* <BrowserRouter basename="pethouse">
+               <BrowserRouter basename="pethouse">
                     <Switch>
-                        <Route path="" component={}></Route>
+                        <Route path="/homepage" component={HomePage}></Route>
+                        <Route path="/login" component={Login}></Route>
+
+                        <Redirect to="/homepage"></Redirect>
                     </Switch>
-               </BrowserRouter> */}
+               </BrowserRouter>
            </div>
         )
     }
