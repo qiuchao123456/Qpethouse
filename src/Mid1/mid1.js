@@ -12,7 +12,7 @@ export default class Mid1 extends React.Component{
 					<div className={Mid1Css.cmenu}>
 						<div className={Mid1Css.menu}>
 							<div className={Mid1Css.div2}>
-								汪汪汪
+								犬类
 							</div>
 							<ul>
 								<li><Link to="/zhonghuatianyuanquan">中华田园犬</Link></li>
@@ -24,7 +24,7 @@ export default class Mid1 extends React.Component{
 						</div>
 						<div className={Mid1Css.menu}>
 							<div className={Mid1Css.div2}>
-								汪汪汪
+								猫类
 							</div>
 							<ul>
 								<li><Link to="/zhonghuatianyuanquan">中华田园犬</Link></li>
@@ -36,7 +36,7 @@ export default class Mid1 extends React.Component{
 						</div>
 						<div className={Mid1Css.menu}>
 							<div className={Mid1Css.div2}>
-								汪汪汪
+								鱼类
 							</div>
 							<ul>
 								<li><Link to="/zhonghuatianyuanquan">中华田园犬</Link></li>
@@ -48,7 +48,7 @@ export default class Mid1 extends React.Component{
 						</div>
 						<div className={Mid1Css.menu}>
 							<div className={Mid1Css.div2}>
-								汪汪汪
+								龟类
 							</div>
 							<ul>
 								<li><Link to="/zhonghuatianyuanquan">中华田园犬</Link></li>
@@ -60,7 +60,7 @@ export default class Mid1 extends React.Component{
 						</div>
 						<div className={Mid1Css.menu}>
 							<div className={Mid1Css.div2}>
-								汪汪汪
+								兔类
 							</div>
 							<ul>
 								<li><Link to="/zhonghuatianyuanquan">中华田园犬</Link></li>
@@ -72,7 +72,7 @@ export default class Mid1 extends React.Component{
 						</div>
 						<div className={Mid1Css.menu}>
 							<div className={Mid1Css.div2}>
-								汪汪汪
+								鸟类
 							</div>
 							<ul>
 								<li><Link to="/zhonghuatianyuanquan">中华田园犬</Link></li>
@@ -84,15 +84,8 @@ export default class Mid1 extends React.Component{
 						</div>
 						<div className={Mid1Css.menu}>
 							<div className={Mid1Css.div2}>
-								汪汪汪
+								<Link to="">更多</Link>
 							</div>
-							<ul>
-								<li><Link to="/zhonghuatianyuanquan">中华田园犬</Link></li>
-								<li><Link to="/zhonghuatianyuanquan">中华田园犬</Link></li>
-								<li><Link to="/zhonghuatianyuanquan">中华田园犬</Link></li>
-								<li><Link to="/zhonghuatianyuanquan">中华田园犬</Link></li>
-								<li><Link to="/zhonghuatianyuanquan">中华田园犬</Link></li>
-							</ul>
 						</div>
 					</div>
 					<LunBoTu/>

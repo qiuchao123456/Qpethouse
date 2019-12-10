@@ -38,11 +38,12 @@
 .menu ul li{
 	height: 50px;
 	width: 100%;
+	font-size: x-large;
 	font-family: "楷体";
 	text-align: center;
 	list-style-type: none;
 	float:left ;
-	background: #1b1c17;
+	background: #c7ee2c;
 	opacity: 0.7;
 }
 /* .menu ul li a{
@@ -69,10 +70,10 @@
 	border-bottom: 1.5px solid rgb(170, 101, 101);
 	/* justify-content: center; */
 	/* align-items: center; */
+
 }
 
-/* .xian{
-	height: 3px;
-	background-color: rgb(25, 25, 32);
-	
-} */
+.div2 a{
+    text-decoration: none;
+	color: rgb(22, 	192, 98);
+}
