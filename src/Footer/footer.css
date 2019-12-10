@@ -1,0 +1,36 @@
+.footer{
+    width: 100%;
+    color: bisque;
+    background-color:white;
+    justify-content: center;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.div2{
+    display: flex;
+    width: 250px;
+    float: left;
+    position: relative;
+    margin-left: 25%;
+}
+
+.div3{
+    float: left;
+    align-items: center;
+    position: relative;
+    width: 1000px;
+    justify-content: center;
+    display: flex;
+    margin-left: 10%;
+}
+.ul1{
+    font-size: 0.8em;
+    color:green;
+}
+.img{
+    height: 150px;
+    width:200px;
+}

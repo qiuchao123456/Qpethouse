@@ -1,18 +1,18 @@
 .cmenu{
 	text-decoration:none;
 	position: relative;
-	width: 15%;
+	width: 200px;
 	line-height: 50px;
 	float: left;
 	opacity: 0.9;
-	height: 450px;
+	height: 500px;
 	background: #c3cc99;
 	z-index: 2;
 }
 .menu{
 	position: relative;
 	margin: auto;
-	height: 65px;
+	/* height: 7px; */
 	text-align:left;
 	line-height: 50px;
 }
@@ -54,7 +54,7 @@
 	position: relative;
 	background-color: rgb(170, 101, 101);
 	width: 80%;
-	height: 450px;
+	height: 500px;
 	margin:13px auto;
 	/*border:  1px solid red;*/
 }
@@ -62,8 +62,17 @@
 .div2{
 	text-align: center;
 	font-size: 30px;
-	color: rgb(22, 192, 98);
+	height: 68px;
+	color: rgb(22, 	192, 98);
 	display: block;
+	border-top: 1.5px solid rgb(170, 101, 101);
+	border-bottom: 1.5px solid rgb(170, 101, 101);
 	/* justify-content: center; */
 	/* align-items: center; */
 }
+
+/* .xian{
+	height: 3px;
+	background-color: rgb(25, 25, 32);
+	
+} */

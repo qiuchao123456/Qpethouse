@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import LunBoTu from './lunbotu';
 
 
 var Mid1Css =require('./mid1.css');
@@ -94,6 +95,7 @@ export default class Mid1 extends React.Component{
 							</ul>
 						</div>
 					</div>
+					<LunBoTu/>
 				</div>
 		   	</div>
         )
