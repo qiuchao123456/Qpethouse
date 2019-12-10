@@ -1,14 +1,14 @@
 import React from 'react';
-import Hander from './../Hander/hander';
+import Header from '../Header/header';
 import Mid1 from '../Mid1/mid1';
 
 
-// var Mid4Css =require('./mid4.css');
+var HomePageCss=require('./homepage.css');
 export default class HomePage extends React.Component{
     render(){
         return(
-           <div>    
-               <Hander/>
+           <div className={HomePageCss.div1}>    
+               <Header/>
                <Mid1/>
                <div>
                     

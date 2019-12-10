@@ -5,6 +5,7 @@ import HomePage from './HomePage/homepage';
 import * as serviceWorker from './serviceWorker';
 import Login from './Login/login';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
+import Zhonghuantianyuanquan from './Gou/Zhonghuatianyuan';
 
 
 
@@ -16,6 +17,7 @@ class IndexPage extends React.Component{
                     <Switch>
                         <Route path="/homepage" component={HomePage}></Route>
                         <Route path="/login" component={Login}></Route>
+                        <Route path="/zhonghuatianyuanquan" component={Zhonghuantianyuanquan}></Route>
 
                         <Redirect to="/homepage"></Redirect>
                     </Switch>

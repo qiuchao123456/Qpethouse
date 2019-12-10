@@ -1,25 +1,18 @@
-.div1{
-	text-decoration:none;
-	width: 80%;
-	height: 450px;
-	margin:13px auto;
-}
-
 .cmenu{
 	text-decoration:none;
-	position: absolute;
+	position: relative;
 	width: 15%;
 	line-height: 50px;
 	float: left;
 	opacity: 0.9;
 	height: 450px;
-	background: #1b1c17;
+	background: #c3cc99;
 	z-index: 2;
 }
 .menu{
 	position: relative;
 	margin: auto;
-	height: 50px;
+	height: 65px;
 	text-align:left;
 	line-height: 50px;
 }
@@ -30,16 +23,17 @@
 .menu ul{
 	position: absolute;
 	list-style: none;
-	left: 20%;
-	width: 80%;
+	left: 1px;
+	width: 1px;
 	top:0px;
 	display: none;
 }
 .menu:hover ul{
+	margin-top: 0.1px;
 	width: 100%;
 	display: block;
     transition-duration: 0.5s;
-    left: 100%;
+    left:78%;
 }
 .menu ul li{
 	height: 50px;
@@ -51,8 +45,25 @@
 	background: #1b1c17;
 	opacity: 0.7;
 }
-.menu ul li a{
+/* .menu ul li a{
 	color: #FFFFFF;
 	font-family: "楷体";
 	display: block;
+} */
+.div1{
+	position: relative;
+	background-color: rgb(170, 101, 101);
+	width: 80%;
+	height: 450px;
+	margin:13px auto;
+	/*border:  1px solid red;*/
+}
+
+.div2{
+	text-align: center;
+	font-size: 30px;
+	color: rgb(22, 192, 98);
+	display: block;
+	/* justify-content: center; */
+	/* align-items: center; */
 }
