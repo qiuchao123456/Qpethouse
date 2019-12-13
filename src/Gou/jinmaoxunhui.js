@@ -29,13 +29,14 @@ export default class Jinmaoxunhuiquan extends React.Component{
                         </div>
                     </div>
                     <div className={JinmaoxunhuiCss.div6}>
-                        <div>
+                        <div className={JinmaoxunhuiCss.div10}>
                             <img src={img1}></img>
                         </div>
 
                         <div  className={JinmaoxunhuiCss.clearfix}></div>
                         
                         <div className={JinmaoxunhuiCss.div9}>
+                            ￥600元
                             <button className={JinmaoxunhuiCss.anniu}>添加到购物车</button>
                         </div>
                     </div>

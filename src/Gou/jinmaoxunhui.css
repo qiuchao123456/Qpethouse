@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     align-content: center; */
-    border:1px solid #000;
+    border:2px solid rgb(161, 194, 167);
 }
 
 .div2{
@@ -24,6 +24,7 @@
 .div4{
     text-indent: 2em;   
     font-size: 1.2em;
+    margin-bottom: 50px;
 }
 
 .div5{
@@ -47,6 +48,11 @@
 
 .div9{
     margin: 50px 0 0 80px;
+    font-size: x-large;
+}
+
+.div10{
+    height: 400px;
 }
 
 .anniu{
