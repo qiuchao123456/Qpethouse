@@ -3,12 +3,16 @@
     height: 91px;
     width: 100%;
     background-color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
 }
 
 .div2{
     position: relative;
     float: left;
-    margin-left: 150px;
+    margin-right: 100px;
     margin-top: 10px;
     
 }
