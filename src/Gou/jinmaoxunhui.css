@@ -1,0 +1,9 @@
+.div1{
+    width: 600px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-color: aqua;
+    height: 200px;
+}

@@ -15,8 +15,8 @@ export default class Mid1 extends React.Component{
 								犬类
 							</div>
 							<ul>
-								<li><Link to="/zhonghuatianyuanquan">中华田园犬</Link></li>
-								<li><Link to="/zhonghuatianyuanquan">中华田园犬</Link></li>
+								<li><Link to="/gou/jinmaoxunhuiquan">金毛寻回犬</Link></li>
+								<li><Link to="/gou/zhonghuatianyuanquan">中华田园犬</Link></li>
 								<li><Link to="/zhonghuatianyuanquan">中华田园犬</Link></li>
 								<li><Link to="/zhonghuatianyuanquan">中华田园犬</Link></li>
 								<li><Link to="/zhonghuatianyuanquan">中华田园犬</Link></li>
