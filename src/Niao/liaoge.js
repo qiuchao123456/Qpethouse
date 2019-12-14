@@ -1,13 +1,13 @@
 import React from 'react';
 import Header from '../Header/header';
-import img1 from './../img/12.jpg';
-import img2 from './../img/13.png';
+import img1 from './../img/57.jpg';
+import img2 from './../img/58.png';
 import Footer from '../Footer/footer';
 
 
-var JinmaoxunhuiCss =require('./jinmaoxunhui.css');
+var JinmaoxunhuiCss =require('../Gou/jinmaoxunhui.css');
 
-export default class Zhonghuatianyuanquan extends React.Component{
+export default class Liaoge extends React.Component{
     render(){
         return(
             <div  className={JinmaoxunhuiCss.beijing}>
@@ -15,14 +15,15 @@ export default class Zhonghuatianyuanquan extends React.Component{
                 <div className={JinmaoxunhuiCss.div1}>
                     <div  className={JinmaoxunhuiCss.div5}>
                         <div className={JinmaoxunhuiCss.div2}>
-                            中华田园犬
+                            鹩哥
                             <button className={JinmaoxunhuiCss.anniu}>收藏</button>
                         </div>
 
                         <div  className={JinmaoxunhuiCss.clearfix}></div>
 
                         <div className={JinmaoxunhuiCss.div8}>
-                            <div className={JinmaoxunhuiCss.div4}>中华田园犬，传统称呼为“土狗”，北方有的地方又叫“柴狗”，属于食肉目、犬科、犬亚科的一种哺乳动物，长大后肩高约25~55厘米，体重约10~30公斤。属于亟待拯救的本土犬种。以前广泛存在于中国汉族农村及东南亚地区，现在城镇化也广泛把中华田园犬当作宠物狗。
+                            <div className={JinmaoxunhuiCss.div4}>鹩哥（学名：Gracula religiosa）：是雀形目椋鸟科的鸣禽。体形较大，体重165-258克，体长234-304毫米。全身大致为黑色具紫蓝色和铜绿色金属光泽。特征为头侧具桔黄色肉垂及肉裾，雌雄相似。善鸣，叫声响亮清晰，能模仿和发出多种有旋律的音调。
+多成对活动，有时结群。主要栖息于低山丘陵和山脚平原地区的次生林、常绿阔叶林、落叶、阔叶林、竹林和混交林中。常与八哥、椋鸟等合群在果树上觅食。尤常见于林缘及林间小面积的开阔地上，嗜吃野果，兼吃昆虫。繁殖期为2-5月，一年繁殖1-2次。每巢产卵3-4枚，孵卵以雌鸟为主，雄鸟有明显护巢现象。分布于印度、缅甸、泰国、中南半岛和中国。
                             </div>
                             <img src={img2}></img>
                         </div>
@@ -35,7 +36,7 @@ export default class Zhonghuatianyuanquan extends React.Component{
                         <div  className={JinmaoxunhuiCss.clearfix}></div>
                         
                         <div className={JinmaoxunhuiCss.div9}>
-                            ￥200元
+                            ￥1000元
                             <button className={JinmaoxunhuiCss.anniu}>添加到购物车</button>
                         </div>
                     </div>

@@ -64,10 +64,10 @@ export default class Mid1 extends React.Component{
 							</div>
 							<ul>
 								<li><Link to="/tu/helanchuiertu">荷兰垂耳兔</Link></li>
-								<li><Link to="/zhonghuatianyuanquan">中华田园犬</Link></li>
-								<li><Link to="/zhonghuatianyuanquan">中华田园犬</Link></li>
-								<li><Link to="/zhonghuatianyuanquan">中华田园犬</Link></li>
-								<li><Link to="/zhonghuatianyuanquan">中华田园犬</Link></li>
+								<li><Link to="/tu/bolantu">波兰兔</Link></li>
+								<li><Link to="/tu/haitangtu">海棠兔</Link></li>
+								<li><Link to="/tu/daerbaitu">大耳白兔</Link></li>
+								<li><Link to="/tu/jiliantu">忌廉兔</Link></li>
 							</ul>
 						</div>
 						<div className={Mid1Css.menu}>
@@ -75,11 +75,11 @@ export default class Mid1 extends React.Component{
 								鸟类
 							</div>
 							<ul>
-								<li><Link to="/zhonghuatianyuanquan">中华田园犬</Link></li>
-								<li><Link to="/zhonghuatianyuanquan">中华田园犬</Link></li>
-								<li><Link to="/zhonghuatianyuanquan">中华田园犬</Link></li>
-								<li><Link to="/zhonghuatianyuanquan">中华田园犬</Link></li>
-								<li><Link to="/zhonghuatianyuanquan">中华田园犬</Link></li>
+								<li><Link to="/niao/bage">八哥</Link></li>
+								<li><Link to="/niao/liaoge">鹩哥</Link></li>
+								<li><Link to="/niao/yingwu">鹦鹉</Link></li>
+								<li><Link to="/niao/daisheng">戴胜</Link></li>
+								<li><Link to="/niao/jiaobailing">角百灵</Link></li>
 							</ul>
 						</div>
 						<div className={Mid1Css.menu}>

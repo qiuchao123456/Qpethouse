@@ -26,6 +26,15 @@ import Ditugui from './Gui/ditugui';
 import Zhonghuagui from './Gui/zhonghuagui';
 import Hongtuilugui from './Gui/hongtuilugui';
 import Helanchuiertu from './Tu/helanchuiertu';
+import Bolantu from './Tu/bolantu';
+import Haitangtu from './Tu/haitangtu';
+import Daerbaitu from './Tu/daerbaitu';
+import Jiliantu from './Tu/jiliantu';
+import Liaoge from './Niao/liaoge';
+import Yingwu from './Niao/yingwu';
+import Daisheng from './Niao/daisheng';
+import Jiaobailing from './Niao/jiaobailing';
+import Bage from './Niao/bage';
 
 
 
@@ -68,6 +77,17 @@ class IndexPage extends React.Component{
 
                         {/* 兔 */}
                         <Route path="/tu/helanchuiertu"component={Helanchuiertu}></Route>
+                        <Route path="/tu/bolantu"component={Bolantu}></Route>
+                        <Route path="/tu/haitangtu"component={Haitangtu}></Route>
+                        <Route path="/tu/daerbaitu"component={Daerbaitu}></Route>
+                        <Route path="/tu/jiliantu"component={Jiliantu}></Route>
+
+                        {/* 鸟 */}
+                        <Route path="/niao/bage"component={Bage}></Route>
+                        <Route path="/niao/liaoge"component={Liaoge}></Route>
+                        <Route path="/niao/yingwu"component={Yingwu}></Route>
+                        <Route path="/niao/daisheng"component={Daisheng}></Route>
+                        <Route path="/niao/jiaobailing"component={Jiaobailing}></Route>
 
                         <Redirect to="/homepage"></Redirect>
                     </Switch>
