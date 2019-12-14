@@ -35,6 +35,7 @@ import Yingwu from './Niao/yingwu';
 import Daisheng from './Niao/daisheng';
 import Jiaobailing from './Niao/jiaobailing';
 import Bage from './Niao/bage';
+import Fenlei from './Fenlei/fenlei';
 
 
 
@@ -44,10 +45,12 @@ class IndexPage extends React.Component{
            <div>
                <BrowserRouter basename="pethouse">
                     <Switch>
-                        {/* 狗 */}
+                        
                         <Route path="/homepage" component={HomePage}></Route>
                         <Route path="/login" component={Login}></Route>
-                        <Route path="/gou/zhonghuatianyuanquan" component={Zhonghuantianyuanquan}></Route>
+                        <Route path="/fenlei"component={Fenlei}></Route>
+
+                        {/* 狗 */}
                         <Route path="/gou/jinmaoxunhuiquan" component={Jinmaoxunhuiquan}></Route>
                         <Route path="/gou/chaiquan" component={Chai}></Route>
                         <Route path="/gou/xiboliyaxueqiaoquan" component={Xiboliyaxueqiaoquan}></Route>

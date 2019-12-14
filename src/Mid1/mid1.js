@@ -84,7 +84,7 @@ export default class Mid1 extends React.Component{
 						</div>
 						<div className={Mid1Css.menu}>
 							<div className={Mid1Css.div2}>
-								<Link to="">更多</Link>
+								<Link to="/fenlei">更多</Link>
 							</div>
 						</div>
 					</div>
