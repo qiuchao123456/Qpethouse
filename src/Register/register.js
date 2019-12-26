@@ -10,11 +10,11 @@ export default class Login extends React.Component{
         return(
             <div>
                 用户名：
-                <input type="text" maxLength="50"/>
+                <input type=""/>
                 密码：
-                <input type="password"/>
+                <input type=""/>
                 <div>
-                    <div>没有账号？请点击<Link to="/register"><span>注册</span></Link></div>
+                    <div>没有账号？请点击<span>注册</span></div>
                 </div>
             </div>
            

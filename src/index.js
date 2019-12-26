@@ -3,7 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import HomePage from './HomePage/homepage';
 import * as serviceWorker from './serviceWorker';
+//登录
 import Login from './Login/login';
+//注册
+import Register from './Register/register';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import Zhonghuantianyuanquan from './Gou/Zhonghuatianyuan';
 
@@ -18,6 +21,8 @@ class IndexPage extends React.Component{
                         <Route path="/homepage" component={HomePage}></Route>
                         <Route path="/login" component={Login}></Route>
                         <Route path="/zhonghuatianyuanquan" component={Zhonghuantianyuanquan}></Route>
+                        <Route path="/login" component={Login}></Route>
+                        <Route path="/register" component={Register}></Route>
 
                         <Redirect to="/homepage"></Redirect>
                     </Switch>

@@ -18,7 +18,8 @@ export default class Header extends React.Component{
                     <ul className={HeaderCss.ul1}>关于我们</ul>
                     <ul className={HeaderCss.ul1}>论坛</ul>
                     <ul className={HeaderCss.ul1}>动物分类</ul>
-                    <ul className={HeaderCss.ul1}>登录/注册</ul>
+                    <Link to="./Login" className={HeaderCss.ul1}>登录</Link> 
+                    <Link className={HeaderCss.ul1}>注册</Link> 
                 </div>
                 <div className={HeaderCss.clearfix}></div>
             </div>
