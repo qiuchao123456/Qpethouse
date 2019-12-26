@@ -1,13 +1,13 @@
 import React from 'react';
-import Header from '../Header/header';
-import img1 from './../img/12.jpg';
-import img2 from './../img/13.png';
-import Footer from '../Footer/footer';
+import Header from './../Header/header';
+import img1 from './../img/16.jpg';
+import img2 from './../img/17.png';
+import Footer from './../Footer/footer';
 
 
-var JinmaoxunhuiCss =require('./jinmaoxunhui.css');
+var JinmaoxunhuiCss =require('./../Gou/jinmaoxunhui.css');
 
-export default class Zhonghuatianyuanquan extends React.Component{
+export default class Lihua extends React.Component{
     render(){
         return(
             <div  className={JinmaoxunhuiCss.beijing}>
@@ -15,14 +15,14 @@ export default class Zhonghuatianyuanquan extends React.Component{
                 <div className={JinmaoxunhuiCss.div1}>
                     <div  className={JinmaoxunhuiCss.div5}>
                         <div className={JinmaoxunhuiCss.div2}>
-                            中华田园犬
+                            狸花猫
                             <button className={JinmaoxunhuiCss.anniu}>收藏</button>
                         </div>
 
                         <div  className={JinmaoxunhuiCss.clearfix}></div>
 
                         <div className={JinmaoxunhuiCss.div8}>
-                            <div className={JinmaoxunhuiCss.div4}>中华田园犬，传统称呼为“土狗”，北方有的地方又叫“柴狗”，属于食肉目、犬科、犬亚科的一种哺乳动物，长大后肩高约25~55厘米，体重约10~30公斤。属于亟待拯救的本土犬种。以前广泛存在于中国汉族农村及东南亚地区，现在城镇化也广泛把中华田园犬当作宠物狗。
+                            <div className={JinmaoxunhuiCss.div4}>狸花猫是一种体格健壮的大型猫咪，长有美的斑纹被毛。尽管它感情不太外露，但还是能成为忠实友好的宠物。狸花猫性格活跃，以聪明的捕猎技巧而著称，需要较大的运动空间，所以不适宜小公寓的圈养生活。
                             </div>
                             <img src={img2}></img>
                         </div>
@@ -35,7 +35,7 @@ export default class Zhonghuatianyuanquan extends React.Component{
                         <div  className={JinmaoxunhuiCss.clearfix}></div>
                         
                         <div className={JinmaoxunhuiCss.div9}>
-                            ￥200元
+                            ￥10000元
                             <button className={JinmaoxunhuiCss.anniu}>添加到购物车</button>
                         </div>
                     </div>

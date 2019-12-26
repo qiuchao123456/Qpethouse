@@ -1,13 +1,13 @@
 import React from 'react';
-import Header from '../Header/header';
-import img1 from './../img/12.jpg';
-import img2 from './../img/13.png';
-import Footer from '../Footer/footer';
+import Header from './../Header/header';
+import img1 from './../img/30.jpg';
+import img2 from './../img/31.png';
+import Footer from './../Footer/footer';
 
 
-var JinmaoxunhuiCss =require('./jinmaoxunhui.css');
+var JinmaoxunhuiCss =require('./../Gou/jinmaoxunhui.css');
 
-export default class Zhonghuatianyuanquan extends React.Component{
+export default class Haishuiyu extends React.Component{
     render(){
         return(
             <div  className={JinmaoxunhuiCss.beijing}>
@@ -15,14 +15,14 @@ export default class Zhonghuatianyuanquan extends React.Component{
                 <div className={JinmaoxunhuiCss.div1}>
                     <div  className={JinmaoxunhuiCss.div5}>
                         <div className={JinmaoxunhuiCss.div2}>
-                            中华田园犬
+                            海水鱼
                             <button className={JinmaoxunhuiCss.anniu}>收藏</button>
                         </div>
 
                         <div  className={JinmaoxunhuiCss.clearfix}></div>
 
                         <div className={JinmaoxunhuiCss.div8}>
-                            <div className={JinmaoxunhuiCss.div4}>中华田园犬，传统称呼为“土狗”，北方有的地方又叫“柴狗”，属于食肉目、犬科、犬亚科的一种哺乳动物，长大后肩高约25~55厘米，体重约10~30公斤。属于亟待拯救的本土犬种。以前广泛存在于中国汉族农村及东南亚地区，现在城镇化也广泛把中华田园犬当作宠物狗。
+                            <div className={JinmaoxunhuiCss.div4}>海水鱼主要是指产自热带地区的海鱼，它们色彩特别艳丽，形状奇特，是观赏鱼产业未来的发展方向。人工饲养需要一定方法和技巧。海水鱼是生活在海洋中的鱼，因此，我们要饲养它，必须要有相关的设备，采取相关的措施，来摸拟大洋中的生活环境。温度应控制在25℃左右，盐度1·020%～1·023%之间，并需摆上海里的动植物。如珊瑚、海葵、海蟹、海草等。只有这样，海水鱼才肯高高兴兴地在这里安居乐业，继续生活下去。
                             </div>
                             <img src={img2}></img>
                         </div>
@@ -35,7 +35,7 @@ export default class Zhonghuatianyuanquan extends React.Component{
                         <div  className={JinmaoxunhuiCss.clearfix}></div>
                         
                         <div className={JinmaoxunhuiCss.div9}>
-                            ￥200元
+                            ￥40元
                             <button className={JinmaoxunhuiCss.anniu}>添加到购物车</button>
                         </div>
                     </div>

@@ -1,13 +1,13 @@
 import React from 'react';
-import Header from '../Header/header';
-import img1 from './../img/12.jpg';
-import img2 from './../img/13.png';
-import Footer from '../Footer/footer';
+import Header from './../Header/header';
+import img1 from './../img/14.jpg';
+import img2 from './../img/15.png';
+import Footer from './../Footer/footer';
 
 
 var JinmaoxunhuiCss =require('./jinmaoxunhui.css');
 
-export default class Zhonghuatianyuanquan extends React.Component{
+export default class Jiwawa extends React.Component{
     render(){
         return(
             <div  className={JinmaoxunhuiCss.beijing}>
@@ -15,14 +15,14 @@ export default class Zhonghuatianyuanquan extends React.Component{
                 <div className={JinmaoxunhuiCss.div1}>
                     <div  className={JinmaoxunhuiCss.div5}>
                         <div className={JinmaoxunhuiCss.div2}>
-                            中华田园犬
+                            吉娃娃
                             <button className={JinmaoxunhuiCss.anniu}>收藏</button>
                         </div>
 
                         <div  className={JinmaoxunhuiCss.clearfix}></div>
 
                         <div className={JinmaoxunhuiCss.div8}>
-                            <div className={JinmaoxunhuiCss.div4}>中华田园犬，传统称呼为“土狗”，北方有的地方又叫“柴狗”，属于食肉目、犬科、犬亚科的一种哺乳动物，长大后肩高约25~55厘米，体重约10~30公斤。属于亟待拯救的本土犬种。以前广泛存在于中国汉族农村及东南亚地区，现在城镇化也广泛把中华田园犬当作宠物狗。
+                            <div className={JinmaoxunhuiCss.div4}>吉娃娃从墨西哥传到美国后到1898年的历史至今不清。有人确定此犬原产于南美，初期被印加族人视为神圣的犬种，后来传到阿斯提克族。也有人认为此犬是随西班牙的侵略者到达新世界的品种，或者在19世纪初期，从中国传入的。以上各种判断，可以说明此犬绝非源自一种品种，而是自古以来就是由多种品种交配而来的。1923年成立吉娃娃犬俱乐部，它是美国最受欢迎的12个品种犬之一。英国吉娃娃犬俱乐部建立于1949年，是世界上最小的犬。1923年成立吉娃娃犬俱乐部，它是美国最受欢迎的12个品种犬之一。有淡黄褐色、蓝色、巧克力色、黑色、黑黄褐色、红色、棕色等，有的单色的吉娃娃犬还有斑点。
                             </div>
                             <img src={img2}></img>
                         </div>
@@ -35,7 +35,7 @@ export default class Zhonghuatianyuanquan extends React.Component{
                         <div  className={JinmaoxunhuiCss.clearfix}></div>
                         
                         <div className={JinmaoxunhuiCss.div9}>
-                            ￥200元
+                            ￥1500元
                             <button className={JinmaoxunhuiCss.anniu}>添加到购物车</button>
                         </div>
                     </div>

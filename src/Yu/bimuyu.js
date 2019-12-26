@@ -1,13 +1,13 @@
 import React from 'react';
-import Header from '../Header/header';
-import img1 from './../img/12.jpg';
-import img2 from './../img/13.png';
-import Footer from '../Footer/footer';
+import Header from './../Header/header';
+import img1 from './../img/34.jpg';
+import img2 from './../img/35.png';
+import Footer from './../Footer/footer';
 
 
-var JinmaoxunhuiCss =require('./jinmaoxunhui.css');
+var JinmaoxunhuiCss =require('./../Gou/jinmaoxunhui.css');
 
-export default class Zhonghuatianyuanquan extends React.Component{
+export default class Bimuyu extends React.Component{
     render(){
         return(
             <div  className={JinmaoxunhuiCss.beijing}>
@@ -15,14 +15,15 @@ export default class Zhonghuatianyuanquan extends React.Component{
                 <div className={JinmaoxunhuiCss.div1}>
                     <div  className={JinmaoxunhuiCss.div5}>
                         <div className={JinmaoxunhuiCss.div2}>
-                            中华田园犬
+                            比目鱼
                             <button className={JinmaoxunhuiCss.anniu}>收藏</button>
                         </div>
 
                         <div  className={JinmaoxunhuiCss.clearfix}></div>
 
                         <div className={JinmaoxunhuiCss.div8}>
-                            <div className={JinmaoxunhuiCss.div4}>中华田园犬，传统称呼为“土狗”，北方有的地方又叫“柴狗”，属于食肉目、犬科、犬亚科的一种哺乳动物，长大后肩高约25~55厘米，体重约10~30公斤。属于亟待拯救的本土犬种。以前广泛存在于中国汉族农村及东南亚地区，现在城镇化也广泛把中华田园犬当作宠物狗。
+                            <div className={JinmaoxunhuiCss.div4}>比目鱼是鲽形目鱼类的统称。无鳔，以蠕虫、甲壳类等动物为食。在生物分类学上属辐鳍鱼纲，鲽形目。比目鱼具有扁平的身体，眼睛只生长在身体的一侧，具有鱼类中独一无二的不对称结构。
+比目鱼被认为是从一种习惯单侧休息的基本对称的鲈形鱼（海鲈鱼）进化而来的。世界上大约有570种比目鱼，可以划分为11个科。比目鱼中最原始的科是鳒科，具有非常类似于鲈鱼的胸鳍与臀鳍，只有眼睛和长长的背鳍和海鲈鱼有所差异，这说明比目鱼是从鲈形目祖先进化而来的。
                             </div>
                             <img src={img2}></img>
                         </div>
@@ -35,7 +36,7 @@ export default class Zhonghuatianyuanquan extends React.Component{
                         <div  className={JinmaoxunhuiCss.clearfix}></div>
                         
                         <div className={JinmaoxunhuiCss.div9}>
-                            ￥200元
+                            ￥100元
                             <button className={JinmaoxunhuiCss.anniu}>添加到购物车</button>
                         </div>
                     </div>
