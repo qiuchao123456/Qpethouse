@@ -5,4 +5,4 @@ module.exports = override(
         libraryDirectory: 'es',
         style: 'css',
     }),
-); 
+);

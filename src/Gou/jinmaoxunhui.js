@@ -8,6 +8,17 @@ import Footer from './../Footer/footer';
 var JinmaoxunhuiCss =require('./jinmaoxunhui.css');
 
 export default class Jinmaoxunhuiquan extends React.Component{
+    constructor(props){
+        super(props);
+        this.state={}
+    }
+    upload=()=>{
+        var date={
+            "collection":this.state.collection
+        }
+    }
+    //fetch
+    // fetch.post("/collection")
     render(){
         return(
             <div  className={JinmaoxunhuiCss.beijing}>
@@ -16,7 +27,7 @@ export default class Jinmaoxunhuiquan extends React.Component{
                     <div  className={JinmaoxunhuiCss.div5}>
                         <div className={JinmaoxunhuiCss.div2}>
                             金毛寻回犬
-                            <button className={JinmaoxunhuiCss.anniu}>收藏</button>
+                            <button onClick={this.upload} name="collection" className={JinmaoxunhuiCss.anniu}>收藏</button>
                         </div>
 
                         <div  className={JinmaoxunhuiCss.clearfix}></div>

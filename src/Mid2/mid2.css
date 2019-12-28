@@ -1,0 +1,101 @@
+.div1{
+    position: relative;
+    width: 80%;
+    margin: 13px auto;
+    
+    /* justify-content: center;
+    display: flex;
+    align-content: center;
+    align-items: center; */
+    
+}
+
+.div1 a{
+    color: rgb(132, 212, 139);
+    text-decoration: none;
+}
+
+.div2{
+    border: 3px solid rgb(132, 212, 139);
+    font-size: 2.5em;
+    justify-content: center;
+    display: flex;
+    color:rgb(132, 212, 139);
+    font-style: italic;
+    margin: 20px 0;
+    width: 100%;
+    background-color: azure;
+}
+
+.div3{
+    border: 1px solid red;
+    justify-content: center;
+    display: flex;
+    color: rgb(204, 42, 42);
+    font-size: 1.2em;
+}
+
+.div4{
+    position: relative;
+    width: 33.3%;
+    float: left;
+    /* justify-content: center;
+    display: flex;
+    align-content: center;
+    align-items: center; */
+    margin-bottom: 20px;
+}
+
+.div5{
+    font-size: 2em;
+    color:rgb(132, 212, 139);
+    text-align: center;
+    margin: 20px 0;
+    
+}
+
+.clerafix{
+    clear: both;
+}
+
+.div6{
+    height: 300px;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.div7{
+    text-align: center;
+    color: red;
+    font-size: x-large;
+}
+
+.div8{
+    border: 3px solid rgb(132, 212, 139);
+    font-size: 2.5em;
+    justify-content: center;    
+    display: flex;
+    color:rgb(132, 212, 139);
+    font-style: italic;
+    float: left;
+    width: 100%;
+    margin: 20px 0;
+    background-color: azure;
+}
+
+.anniu{
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 0 10px 100px;
+    width: 61%;
+}
