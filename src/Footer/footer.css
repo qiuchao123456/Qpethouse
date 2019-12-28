@@ -7,8 +7,8 @@
     display: flex;
     align-items: center;
     position: relative;
+    bottom: 0;
 }
-
 .div2{
     display: flex;
     width: 250px;

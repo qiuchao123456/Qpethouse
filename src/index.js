@@ -8,7 +8,7 @@ import Login from './Login/login';
 //注册
 import Register from './Register/register';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
-import Zhonghuantianyuanquan from './Gou/zhonghuatianyuan';
+import Zhonghuantianyuanquan from './Gou/Zhonghuatianyuanquan';
 import Jinmaoxunhuiquan from './Gou/jinmaoxunhui';
 import Xiboliyaxueqiaoquan from './Gou/xiboliyaxueqiao';
 import Chai from './Gou/chai';
