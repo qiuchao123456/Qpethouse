@@ -37,9 +37,12 @@
 
 .div4{
     position: relative;
-    width: 350px;
+    width: 33.3%;
     float: left;
-    margin-left: 40px;
+    /* justify-content: center;
+    display: flex;
+    align-content: center;
+    align-items: center; */
     margin-bottom: 20px;
 }
 
@@ -48,6 +51,7 @@
     color:rgb(132, 212, 139);
     text-align: center;
     margin: 20px 0;
+    
 }
 
 .clerafix{
@@ -93,4 +97,5 @@
     font-size: 16px;
     cursor: pointer;
     margin: 10px 0 10px 100px;
+    width: 61%;
 }

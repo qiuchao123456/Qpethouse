@@ -36,6 +36,7 @@ import Daisheng from './Niao/daisheng';
 import Jiaobailing from './Niao/jiaobailing';
 import Bage from './Niao/bage';
 import Fenlei from './Fenlei/fenlei';
+import Luntan from './Luntan/luntan';
 
 
 
@@ -49,6 +50,7 @@ class IndexPage extends React.Component{
                         <Route path="/homepage" component={HomePage}></Route>
                         <Route path="/login" component={Login}></Route>
                         <Route path="/fenlei"component={Fenlei}></Route>
+                        <Route path="/luntan"component={Luntan}></Route>
 
                         {/* 狗 */}
                         <Route path="/gou/jinmaoxunhuiquan" component={Jinmaoxunhuiquan}></Route>
