@@ -3,11 +3,39 @@ import Header from '../Header/header';
 import img1 from './../img/12.jpg';
 import img2 from './../img/13.png';
 import Footer from '../Footer/footer';
+import {message} from 'antd';
 
 
 var JinmaoxunhuiCss =require('./jinmaoxunhui.css');
 
 export default class Zhonghuatianyuanquan extends React.Component{
+    constructor(props){
+        super(props);
+        this.state={}
+    }
+    upload=()=>{
+        var sendDate={
+            "collection":this.state.collection
+        }
+        //fetch
+        fetch("/coll",{
+            method:"post",
+            // headers:{
+            //     "Content-Type":"application/json"
+            // },
+            //body:JSON.stringify(data)
+            body:sendDate
+        })
+        // .then(result=>{
+        //     if(result.state==2){
+        //         message.info("已收藏")
+        //     }else if(result.state==1){
+        //         message.info("收藏成功")
+        //     }
+        // })
+        .then(response=>response.json())
+        .then(data=>console.log(data))
+    }
     render(){
         return(
             <div  className={JinmaoxunhuiCss.beijing}>
@@ -16,7 +44,7 @@ export default class Zhonghuatianyuanquan extends React.Component{
                     <div  className={JinmaoxunhuiCss.div5}>
                         <div className={JinmaoxunhuiCss.div2}>
                             中华田园犬
-                            <button className={JinmaoxunhuiCss.anniu}>收藏</button>
+                            <button className={JinmaoxunhuiCss.anniu} name="collection" onChange={e=>this.changeValue(e)} onClick={this.upload}>收藏</button>
                         </div>
 
                         <div  className={JinmaoxunhuiCss.clearfix}></div>
