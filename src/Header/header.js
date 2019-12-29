@@ -15,7 +15,7 @@ export default class Header extends React.Component{
                 <div className={HeaderCss.div3}>
                     <Link to="/homepage"><ul className={HeaderCss.ul1}>首页</ul></Link>
                     <ul className={HeaderCss.ul1}>我的购物车</ul>
-                    <ul className={HeaderCss.ul1}>我的收藏</ul>
+                    <Link to="/collection"><ul className={HeaderCss.ul1}>我的收藏</ul></Link>
                     <Link to="/fenlei"><ul className={HeaderCss.ul1}>宠物分类</ul></Link>
                     <Link to="/luntan"><ul className={HeaderCss.ul1}>宠物论坛</ul></Link>
                     <ul className={HeaderCss.ul1}>登录/注册</ul>

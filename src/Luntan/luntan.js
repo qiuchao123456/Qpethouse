@@ -19,11 +19,13 @@ export default class Luntan extends React.Component{
             
             var input =document.getElementsByTagName("Input")[0];
 			input.onclick=function(){
-				var neirong=prompt("请输入内容");
-				var li=document.createElement("li");
-				li.innerText=neirong;
-				var ol=document.getElementsByTagName("ol")[0];
-                ol.appendChild(li);
+                var neirong=prompt("请输入内容");
+                if(neirong!=null && neirong!=""){
+                    var li=document.createElement("li");
+                    li.innerText=neirong;
+                    var ol=document.getElementsByTagName("ol")[0];
+                    ol.appendChild(li);
+                }
             }
         }
         return(
@@ -44,8 +46,8 @@ export default class Luntan extends React.Component{
                             <li>乌龟的寿命是所有动物当中最长的吗？要是我能长命百岁该多好啊。</li>
                             <li>猫头鹰为什么晚上精神那么好，白天却在睡觉呢？</li>
                         </ol>
+                        <Input type="text" value="请输入内容"></Input>
                     </div>
-                    <Input type="text" value="请输入"></Input>
                 </div>
                 <Footer/>
             </div>

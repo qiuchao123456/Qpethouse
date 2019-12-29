@@ -1,0 +1,18 @@
+.div1{
+    width: 75%;
+    margin: 0 auto;
+    background-color: cornsilk;
+    height: 500px;
+}
+
+.div2{
+    border: 3px solid rgb(132, 212, 139);
+    font-size: 2.5em;
+    justify-content: center;
+    display: flex;
+    color:rgb(132, 212, 139);
+    font-style: italic;
+    margin: 20px 0;
+    width: 100%;
+    background-color: azure;
+}

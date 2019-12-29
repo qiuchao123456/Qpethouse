@@ -17,6 +17,12 @@
     background-color: azure;
 }
 
+.div3{
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
 .div3 ol{
     font-size: 2em;
     color: black;
@@ -24,7 +30,7 @@
 }
 
 .div3 li{
-
+    height: 60px;
 }
 
 .div4{
