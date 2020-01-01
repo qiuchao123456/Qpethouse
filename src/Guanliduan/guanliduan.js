@@ -15,10 +15,10 @@ export default class Guanliduan extends React.Component{
         const menu = (
                 <Menu>
                     <Menu.Item>
-                        <Link to="/guanliyuan1">管理员一</Link>
+                        <Link to="/guanliduan">管理员一</Link>
                     </Menu.Item>
                     <Menu.Item>
-                        <a target="_blank" rel="noopener noreferrer" href="http://www.taobao.com/">
+                        <a target="_blank" rel="noopener noreferrer" >
                             管理员二
                         </a>
                     </Menu.Item>
@@ -51,33 +51,27 @@ export default class Guanliduan extends React.Component{
 
                     <div className={GuanliduanCss.xian}></div>
                     <div className={GuanliduanCss.div4}>
-                        <Dropdown overlay={menu}>
                             <a className="ant-dropdown-link" href="#">
-                                用户管理<Icon type="down" />
+                                <Link to="/yonghuguanli">用户管理</Link>
                             </a>
-                        </Dropdown>  
                     </div>
                                         
                     <div className={GuanliduanCss.clearfix}></div>
 
                     <div className={GuanliduanCss.xian}></div>
                     <div className={GuanliduanCss.div4}>
-                        <Dropdown overlay={menu}>
                             <a className="ant-dropdown-link" href="#">
-                               广告管理 <Icon type="down" />
+                               广告管理
                             </a>
-                        </Dropdown>  
                     </div>
                                         
                     <div className={GuanliduanCss.clearfix}></div>
 
                     <div className={GuanliduanCss.xian}></div>
                     <div className={GuanliduanCss.div4}>
-                        <Dropdown overlay={menu}>
                             <a className="ant-dropdown-link" href="#">
-                                评论管理 <Icon type="down" />
+                                评论管理
                             </a>
-                        </Dropdown>  
                     </div>
                                         
                     <div className={GuanliduanCss.clearfix}></div>
