@@ -1,0 +1,40 @@
+.div1{
+    position: relative;
+    width: 75%;
+    margin: 13px auto;
+    
+}
+
+.div2{
+    border: 3px solid rgb(132, 212, 139);
+    font-size: 2.5em;
+    justify-content: center;
+    display: flex;
+    color:rgb(132, 212, 139);
+    font-style: italic;
+    margin: 20px 0;
+    width: 100%;
+    background-color: azure;
+}
+
+.div3{
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.div3 ol{
+    font-size: 2em;
+    color: black;
+    background-color:azure;
+}
+
+.div3 li{
+    height: 60px;
+}
+
+.div4{
+    position: relative;
+    width: 75%;
+    margin: 0 auto;
+}

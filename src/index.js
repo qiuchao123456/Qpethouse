@@ -41,6 +41,9 @@ import Jiaobailing from './Niao/jiaobailing';
 import Bage from './Niao/bage';
 import Fenlei from './Fenlei/fenlei';
 import Luntan from './Luntan/luntan';
+import Collection from './Collection/collection';
+import Guanliduan from './Guanliduan/guanliduan';
+import Yonghuguanli from './Guanliduan/yonghuguanli';
 
 
 
@@ -60,6 +63,9 @@ class IndexPage extends React.Component{
                         <Route path="/register" component={Register}></Route>
                         <Route path="/fenlei"component={Fenlei}></Route>
                         <Route path="/luntan"component={Luntan}></Route>
+                        <Route path="/collection" component={Collection}></Route>
+                        <Route path="/guanliduan" component={Guanliduan}></Route>
+                        <Route path="/yonghuguanli" component={Yonghuguanli}></Route>
 
                         {/* 狗 */}
                         <Route path="/gou/jinmaoxunhuiquan" component={Jinmaoxunhuiquan}></Route>
