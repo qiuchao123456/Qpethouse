@@ -5,6 +5,7 @@ import HomePage from './HomePage/homepage';
 import * as serviceWorker from './serviceWorker';
 //登录
 import Login from './Login/login';
+import Adminlogin from './Login/adminlogin';
 //注册
 import Register from './Register/register';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
@@ -43,6 +44,7 @@ import Luntan from './Luntan/luntan';
 
 
 
+
 class IndexPage extends React.Component{
     render(){
         return(
@@ -54,6 +56,7 @@ class IndexPage extends React.Component{
                         <Route path="/login" component={Login}></Route>
                         <Route path="/zhonghuatianyuanquan" component={Zhonghuantianyuanquan}></Route>
                         <Route path="/login" component={Login}></Route>
+                        <Route path="/adminlogin" component={Adminlogin}></Route>
                         <Route path="/register" component={Register}></Route>
                         <Route path="/fenlei"component={Fenlei}></Route>
                         <Route path="/luntan"component={Luntan}></Route>

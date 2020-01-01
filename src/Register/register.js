@@ -43,6 +43,7 @@ export default class Register extends React.Component {
                         message.info("注册成功")
                         message.info(xhr.responseText)
                         //this.props.history.push("/honmpage")
+                       
                     }  
                 } else {
                     console.log(xhr.status)
@@ -80,6 +81,7 @@ export default class Register extends React.Component {
                             <br />
                             <div className={RegisterCss.div5}>
                                 <Button type="danger" shape="round" size="large" onClick={this.upload}><p className={RegisterCss.span1}>注册</p></Button>
+                                <Link to="/login"><Button type="danger" shape="round" size="large" onClick={this.upload}><p className={RegisterCss.span1}>返回登录</p></Button></Link>
                             </div>
                         </div>
                     </div>
