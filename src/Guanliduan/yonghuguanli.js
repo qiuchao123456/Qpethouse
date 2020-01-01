@@ -85,29 +85,29 @@ export default class Yonghuguanli extends React.Component{
                 <div  className={YonghuguanliCss.div3}>
                     <p>用户管理</p>
                     <div className={YonghuguanliCss.xian}></div>
-                    <div className={YonghuguanliCss.div6}>用户一：123456</div>
+                    <div className={YonghuguanliCss.div6}>用户一：</div>
 
                     <div className={YonghuguanliCss.clearfix}></div>
 
                     <div className={YonghuguanliCss.xian}></div>
-                    <div className={YonghuguanliCss.div6}>用户二：456789</div>
+                    <div className={YonghuguanliCss.div6}>用户二：</div>
 
                     <div className={YonghuguanliCss.clearfix}></div>
 
                     <div className={YonghuguanliCss.xian}></div>
-                    <div className={YonghuguanliCss.div6}>用户三：abcdef</div>
+                    <div className={YonghuguanliCss.div6}>用户三：</div>
                     
 
                     <div className={YonghuguanliCss.xian}></div>
-                    <div className={YonghuguanliCss.div6}>用户四：000000</div>
+                    <div className={YonghuguanliCss.div6}>用户四：</div>
 
                     <div className={YonghuguanliCss.xian}></div>
-                    <div className={YonghuguanliCss.div6}>用户五：111111</div>
+                    <div className={YonghuguanliCss.div6}>用户五：</div>
 
                     <div className={YonghuguanliCss.clearfix}></div>
 
                     <div className={YonghuguanliCss.xian}></div>
-                    <div className={YonghuguanliCss.div6}>用户六：222222</div>
+                    <div className={YonghuguanliCss.div6}>用户六：</div>
 
                 </div>
             </div>

@@ -8,15 +8,7 @@ var LuntanCss =require('./luntan.css');
 
 export default class Luntan extends React.Component{
     render(){
-
-        
         window.onload=function(){
-            // var abc=[1];
-            // for(var i=0;i<abc.length;i++){
-            //     window.location.reload();
-
-            // }
-            
             var input =document.getElementsByTagName("Input")[0];
 			input.onclick=function(){
                 var neirong=prompt("请输入内容");
